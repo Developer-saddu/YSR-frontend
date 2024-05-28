@@ -1,0 +1,216 @@
+.formParentContainer {
+    margin-left: 7%;
+    margin-right: 7%;
+    border: 1px solid black;
+    
+  }
+  
+  .address {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+  }
+  .address1 {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+  }
+  .phNo {
+    font-size: 16px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+  }
+  .colan{
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 6px;
+    margin-top: 13px;
+  }
+  .dateContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4px;
+    align-items: center;
+  }
+  .headerContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .imageContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .headerText {
+    font-size: 38px;
+    color: red;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+  }
+  .enlighten {
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+    font-style: oblique;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .formContainer {
+    margin: 20px;
+  }
+  @media screen and (max-width: 500px) {
+    .formContainer {
+      margin: 10px;
+    }
+  }
+  .preliminary {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .formContents {
+    margin: 25px;
+  }
+  .formFieldText {
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-content: left;
+    font-family: "Roboto", sans-serif;
+  }
+  .dateText {
+    height: 25px;
+    border: none;
+    border-bottom: 2px dotted black;
+  }
+  .dateText:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px dotted black;
+  }
+  .inputField {
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .inputFieldAddress{
+    display: flex;
+    justify-content: flex-end;
+    width: 99%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .inputField:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+  .fieldContainer {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    margin-top: 10px;
+  }
+  .colanMobile{
+    display: none;
+  }
+  @media screen and (max-width: 700px) {
+    .fieldContainer {
+      grid-template-columns: 1fr;
+    }
+    .colan{
+      display: none !important;
+    }
+    .colanMobile{
+      display: block !important;
+      font-size: 16px;
+      font-weight: bold;
+      margin-right: 6px;
+    }
+    .inputFieldAddress{
+      margin-left: 0px;
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .preliminary {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+  .forMobileView{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .tableContainer {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .tableInput {
+    border: none;
+  }
+  .tableInput:focus {
+    outline: none;
+    border: none;
+  }
+  .tableRow {
+    height: 30px;
+    border: 1px solid black;
+  }
+  .tableColumn {
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .checkBoxLable {
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+  }
+  .checkBoxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .formFields {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: -2px;
+    column-gap: 4px;
+    margin-top: 8px;
+  }
+  .phNoContainer {
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (max-width: 500px) {
+    .formContainer {
+      margin-left: 5% !important;
+      margin-right: 5% !important;
+    }
+    .headerText {
+      font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 730px) {
+    .headerText {
+      font-size: 20px;
+      justify-content: center;
+    }
+  }
